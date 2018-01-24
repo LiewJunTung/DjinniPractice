@@ -12,10 +12,10 @@
 		ECF0D3C820187FA600BAA913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF0D3C620187FA600BAA913 /* Main.storyboard */; };
 		ECF0D3CA20187FA600BAA913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF0D3C920187FA600BAA913 /* Assets.xcassets */; };
 		ECF0D3CD20187FA600BAA913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF0D3CB20187FA600BAA913 /* LaunchScreen.storyboard */; };
-		ECF0D3D720187FE800BAA913 /* calculator_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF0D3D620187FE800BAA913 /* calculator_impl.cpp */; };
 		ECF0D3DE2018818500BAA913 /* HWCalculator+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = ECF0D3DC2018818500BAA913 /* HWCalculator+Private.mm */; };
 		ECF0D3F62018846300BAA913 /* DJIError.mm in Sources */ = {isa = PBXBuildFile; fileRef = ECF0D3F12018846300BAA913 /* DJIError.mm */; };
 		ECF0D3F72018846300BAA913 /* DJIProxyCaches.mm in Sources */ = {isa = PBXBuildFile; fileRef = ECF0D3F52018846300BAA913 /* DJIProxyCaches.mm */; };
+		ECF0D3FA2018961200BAA913 /* calculator_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF0D3F92018961200BAA913 /* calculator_impl.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,6 @@
 		ECF0D3CC20187FA600BAA913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECF0D3CE20187FA600BAA913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECF0D3D420187FE800BAA913 /* CalculatorApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalculatorApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		ECF0D3D520187FE800BAA913 /* calculator_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = calculator_impl.hpp; sourceTree = "<group>"; };
-		ECF0D3D620187FE800BAA913 /* calculator_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calculator_impl.cpp; sourceTree = "<group>"; };
-		ECF0D3D820187FFC00BAA913 /* calculator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = calculator.hpp; sourceTree = "<group>"; };
 		ECF0D3DB2018818500BAA913 /* HWCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWCalculator.h; path = ../../../../objc/HWCalculator.h; sourceTree = "<group>"; };
 		ECF0D3DC2018818500BAA913 /* HWCalculator+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "HWCalculator+Private.mm"; path = "../../../../objc/HWCalculator+Private.mm"; sourceTree = "<group>"; };
 		ECF0D3DD2018818500BAA913 /* HWCalculator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HWCalculator+Private.h"; path = "../../../../objc/HWCalculator+Private.h"; sourceTree = "<group>"; };
@@ -39,6 +36,9 @@
 		ECF0D3F32018846300BAA913 /* DJIMarshal+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DJIMarshal+Private.h"; path = "../../../../deps/djinni/support-lib/objc/DJIMarshal+Private.h"; sourceTree = "<group>"; };
 		ECF0D3F42018846300BAA913 /* DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DJIObjcWrapperCache+Private.h"; path = "../../../../deps/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h"; sourceTree = "<group>"; };
 		ECF0D3F52018846300BAA913 /* DJIProxyCaches.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DJIProxyCaches.mm; path = "../../../../deps/djinni/support-lib/objc/DJIProxyCaches.mm"; sourceTree = "<group>"; };
+		ECF0D3F82018961200BAA913 /* calculator_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = calculator_impl.hpp; path = ../../../../src/cpp/calculator_impl.hpp; sourceTree = "<group>"; };
+		ECF0D3F92018961200BAA913 /* calculator_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = calculator_impl.cpp; path = ../../../../src/cpp/calculator_impl.cpp; sourceTree = "<group>"; };
+		ECF0D3FB2018966800BAA913 /* calculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = calculator.hpp; path = ../../../../cpp/calculator.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +88,9 @@
 		ECF0D3D92018808100BAA913 /* calculators */ = {
 			isa = PBXGroup;
 			children = (
-				ECF0D3D820187FFC00BAA913 /* calculator.hpp */,
-				ECF0D3D620187FE800BAA913 /* calculator_impl.cpp */,
-				ECF0D3D520187FE800BAA913 /* calculator_impl.hpp */,
+				ECF0D3FB2018966800BAA913 /* calculator.hpp */,
+				ECF0D3F92018961200BAA913 /* calculator_impl.cpp */,
+				ECF0D3F82018961200BAA913 /* calculator_impl.hpp */,
 			);
 			path = calculators;
 			sourceTree = "<group>";
@@ -191,10 +191,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECF0D3D720187FE800BAA913 /* calculator_impl.cpp in Sources */,
 				ECF0D3F62018846300BAA913 /* DJIError.mm in Sources */,
 				ECF0D3C520187FA600BAA913 /* ViewController.swift in Sources */,
 				ECF0D3DE2018818500BAA913 /* HWCalculator+Private.mm in Sources */,
+				ECF0D3FA2018961200BAA913 /* calculator_impl.cpp in Sources */,
 				ECF0D3C320187FA600BAA913 /* AppDelegate.swift in Sources */,
 				ECF0D3F72018846300BAA913 /* DJIProxyCaches.mm in Sources */,
 			);

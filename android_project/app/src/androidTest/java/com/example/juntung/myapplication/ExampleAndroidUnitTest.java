@@ -68,7 +68,7 @@ public class ExampleAndroidUnitTest {
         try {
             calculator.division(20, 0);
         } catch (Exception e){
-            assertEquals("Divide by zero exception", e.getMessage());
+            assertEquals("Divide by zero exception!!!", e.getMessage());
         }
     }
 

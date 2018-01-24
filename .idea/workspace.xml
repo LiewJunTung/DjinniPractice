@@ -2,80 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d232c28-0fd2-4425-804a-ba89eb2cb824" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/anotherDjinni.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/.idea/runConfigurations.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/Test Results - ExampleAndroidUnitTest.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/CMakeLists.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/proguard-rules.pro" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/androidTest/java/com/example/juntung/myapplication/ExampleAndroidUnitTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/androidTest/java/com/example/juntung/myapplication/ExampleInstrumentedTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/androidTest/java/com/example/juntung/myapplication/MainActivityTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/AndroidManifest.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/cpp/native-lib.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/java/com/example/juntung/myapplication/MainActivity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/drawable/ic_launcher_background.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/values/colors.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/values/strings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/main/res/values/styles.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/app/src/test/java/com/example/juntung/myapplication/ExampleUnitTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/gradle.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/gradlew" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/gradlew.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android_project/settings.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/calculator.djinni" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deps/djinni" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java/com/example/juntung1/Calculator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java/com/example/juntung1/MyClientInterface.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jni/NativeCalculator.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jni/NativeCalculator.hpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp.xcodeproj/project.pbxproj" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp.xcodeproj/project.xcworkspace/xcuserdata/juntung.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp.xcodeproj/xcuserdata/juntung.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/AppDelegate.swift" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/Assets.xcassets/AppIcon.appiconset/Contents.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/Base.lproj/LaunchScreen.storyboard" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/Base.lproj/Main.storyboard" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/CalculatorApp-Bridging-Header.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/Djinni/DJICppWrapperCache+Private.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/Djinni/DJIError.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/Djinni/DJIError.mm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/Djinni/DJIMarshal+Private.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/Djinni/DJIObjcWrapperCache+Private.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/Djinni/DJIProxyCaches.mm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/Info.plist" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/ViewController.swift" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/calculators/calculator.hpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/calculators/calculator_impl.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp/calculators/calculator_impl.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cpp/calculator_impl.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cpp/calculator_impl.hpp" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/android_project/.idea/misc.xml" afterPath="$PROJECT_DIR$/android_project/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp.xcodeproj/project.xcworkspace/xcuserdata/juntung.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/xcode_project/CalculatorApp/CalculatorApp.xcodeproj/project.xcworkspace/xcuserdata/juntung.xcuserdatad/UserInterfaceState.xcuserstate" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -96,11 +27,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NativeCalculator.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NativeCalculator.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jni/NativeCalculator.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-345">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculator_impl.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cpp/calculator_impl.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculator_impl.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cpp/calculator_impl.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -173,6 +124,17 @@
               <item name="anotherDjinni" type="b2602c69:ProjectViewProjectNode" />
               <item name="anotherDjinni" type="462c0819:PsiDirectoryNode" />
               <item name="jni" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotherDjinni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotherDjinni" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotherDjinni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotherDjinni" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,15 +259,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516763179971</updated>
-      <workItem from="1516763181325" duration="9115000" />
+      <workItem from="1516763181325" duration="9961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9115000" />
+    <option name="totallyTimeSpent" value="9961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="208" y="23" width="1989" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -317,7 +280,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31100845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31100845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15511043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -603,22 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cpp/calculator_impl.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cpp/calculator_impl.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jni/NativeCalculator.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -631,6 +578,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-345">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cpp/calculator_impl.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cpp/calculator_impl.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding />
         </state>
       </provider>
