@@ -73,6 +73,12 @@ static_assert(__has_feature(objc_arc), "Djinni requires ARC to be enabled for th
     } DJINNI_TRANSLATE_EXCEPTIONS()
 }
 
+- (void)printAString:(nonnull NSString *)str {
+    try {
+        _cppRefHandle.get()->print_a_string(::djinni::String::toCpp(str));
+    } DJINNI_TRANSLATE_EXCEPTIONS()
+}
+
 namespace djinni_generated {
 
 auto Calculator::toCpp(ObjcType objc) -> CppType

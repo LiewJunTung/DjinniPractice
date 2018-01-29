@@ -21,4 +21,6 @@
 - (int32_t)division:(int32_t)number1
             number2:(int32_t)number2;
 
+- (void)printAString:(nonnull NSString *)str;
+
 @end

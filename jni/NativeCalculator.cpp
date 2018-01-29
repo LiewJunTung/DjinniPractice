@@ -72,4 +72,13 @@ CJNIEXPORT jint JNICALL Java_com_example_juntung1_Calculator_00024CppProxy_nativ
     } JNI_TRANSLATE_EXCEPTIONS_RETURN(jniEnv, 0 /* value doesn't matter */)
 }
 
+CJNIEXPORT void JNICALL Java_com_example_juntung1_Calculator_00024CppProxy_native_1printAString(JNIEnv* jniEnv, jobject /*this*/, jlong nativeRef, jstring j_str)
+{
+    try {
+        DJINNI_FUNCTION_PROLOGUE1(jniEnv, nativeRef);
+        const auto& ref = ::djinni::objectFromHandleAddress<::calculator::Calculator>(nativeRef);
+        ref->print_a_string(::djinni::String::toCpp(jniEnv, j_str));
+    } JNI_TRANSLATE_EXCEPTIONS_RETURN(jniEnv, )
+}
+
 }  // namespace djinni_generated

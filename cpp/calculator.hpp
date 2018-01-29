@@ -5,6 +5,7 @@
 
 #include <cstdint>
 #include <memory>
+#include <string>
 
 namespace calculator {
 
@@ -21,6 +22,8 @@ public:
     virtual int32_t subtraction(int32_t number1, int32_t number2) = 0;
 
     virtual int32_t division(int32_t number1, int32_t number2) = 0;
+
+    virtual void print_a_string(const std::string & str) = 0;
 };
 
 }  // namespace calculator

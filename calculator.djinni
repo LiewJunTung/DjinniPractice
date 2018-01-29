@@ -5,4 +5,5 @@ interface +c {
     multiplication(number1: i32, number2: i32):i32;
     subtraction(number1: i32, number2: i32):i32;
     division(number1: i32, number2: i32):i32;
+    print_a_string(str: string);
 }

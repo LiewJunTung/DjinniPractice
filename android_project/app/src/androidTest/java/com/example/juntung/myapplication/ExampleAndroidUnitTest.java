@@ -31,6 +31,7 @@ public class ExampleAndroidUnitTest {
         } else {
             Log.d("TEST", "NOT CREATED");
         }
+        calculator.printAString("HELLO JT");
     }
 
     @After

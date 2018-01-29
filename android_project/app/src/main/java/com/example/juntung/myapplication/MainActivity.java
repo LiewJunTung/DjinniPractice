@@ -6,6 +6,7 @@ import android.widget.TextView;
 
 import com.example.juntung1.Calculator;
 
+
 public class MainActivity extends AppCompatActivity {
 
     // Used to load the 'native-lib' library on application startup.
@@ -21,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
         // Example of a call to a native method
         Calculator calculator = Calculator.create();
         TextView tv = (TextView) findViewById(R.id.sample_text);
-        tv.setText(calculator.multiplication(20, 20)+"");
+        tv.setText(calculator.multiplication(2000, 20)+"");
     }
 }

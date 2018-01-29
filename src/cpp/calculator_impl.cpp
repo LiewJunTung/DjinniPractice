@@ -1,5 +1,6 @@
 #include "calculator_impl.hpp"
 #include <string>
+#include <iostream>
 
 
 namespace calculator{
@@ -30,4 +31,10 @@ namespace calculator{
         }
         return number1 / number2;
     }
+
+    void CalculatorImpl::print_a_string(const std::string &str) {
+        std::cout << str << std::endl;
+    }
+
+
 }

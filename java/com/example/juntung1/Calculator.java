@@ -14,6 +14,8 @@ public abstract class Calculator {
 
     public abstract int division(int number1, int number2);
 
+    public abstract void printAString(String str);
+
     public static native Calculator create();
 
     private static final class CppProxy extends Calculator
@@ -70,5 +72,13 @@ public abstract class Calculator {
             return native_division(this.nativeRef, number1, number2);
         }
         private native int native_division(long _nativeRef, int number1, int number2);
+
+        @Override
+        public void printAString(String str)
+        {
+            assert !this.destroyed.get() : "trying to use a destroyed object";
+            native_printAString(this.nativeRef, str);
+        }
+        private native void native_printAString(long _nativeRef, String str);
     }
 }
